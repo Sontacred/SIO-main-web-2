@@ -102,6 +102,7 @@ main{
         align-items: center;
         position: absolute;
         background: rgba(200, 200, 200, 0.8);
+        backdrop-filter: blur(20px);
         border-right: 2px solid #FFFFFF;
         width: 70%;
         height: 100vh;
