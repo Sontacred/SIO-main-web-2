@@ -219,4 +219,11 @@ p{
         padding: 10px;
         transition: 150ms;
     }
+    footer a{
+        font-size: 10px;
+        margin: 0px 5px;
+    }
+    .link{
+        font-size: 10px;
+    }
 }
