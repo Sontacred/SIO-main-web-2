@@ -101,8 +101,7 @@ main{
         justify-content: center;
         align-items: center;
         position: absolute;
-        background: rgba(200, 200, 200, 0.8);
-        backdrop-filter: blur(40px);
+        background: #101010;
         border-right: 2px solid #FFFFFF;
         width: 70%;
         height: 100vh;
