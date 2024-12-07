@@ -93,6 +93,7 @@ main p{
 .menu a{
     background: none;
     font-size: 25px;
+    margin: 0px 5px;
     padding: 10px 15px;
     border-radius: 100px;
     transition: 150ms;
