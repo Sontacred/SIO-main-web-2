@@ -101,7 +101,7 @@ main{
         justify-content: center;
         align-items: center;
         position: absolute;
-        backgroud: none;
+        backgroud: #101010;
         backdrop-filter: blur(20px);
         width: 70%;
         height: 100vh;
