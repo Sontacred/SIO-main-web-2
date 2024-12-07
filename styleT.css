@@ -101,7 +101,7 @@ main{
         justify-content: center;
         align-items: center;
         position: absolute;
-        background: #101010;
+        background: rgba(200, 200, 200, 0.8);
         border-right: 2px solid #FFFFFF;
         width: 70%;
         height: 100vh;
