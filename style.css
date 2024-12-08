@@ -96,7 +96,6 @@ footer{
     font-weight: 900;
     width: 100%;
     padding: 15px 0px 15px 0px;
-    border-top: 2px solid #FFFFFF;
     z-index: 50;
 }
 footer a{
@@ -246,7 +245,6 @@ footer p{
     footer{
         font-size: 10px;
         margin: 0px 5px;
-        border-top: 1px solid #FFFFFF;
     }
 
     /* ----- PORTFOLIO ----- */
