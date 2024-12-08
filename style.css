@@ -153,7 +153,7 @@ footer p{
 
 /* ----- MEDIA ----- */
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .navbar{
         position: absolute;
         padding: 0;
@@ -215,10 +215,10 @@ footer p{
     }
 
     main h1{
-        font-size: 3em;
+        font-size: 2.6em;
     }
     main p{
-        font-size: 0.9em;
+        font-size: 0.6em;
     }
     footer a{
         font-size: 10px;
