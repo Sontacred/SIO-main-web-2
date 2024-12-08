@@ -68,17 +68,6 @@ body{
 
 /* --------------- BASE --------------- */
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 90vh;
-    height: fit-content;
-    width: 100%;
-    color: #FFFFFF;
-}
-
 .titre{
     display: flex;
     flex-direction: column;
@@ -127,7 +116,7 @@ footer p{
 .main-lobby a{
     color: #FFFFFF;
     margin: 30px;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     transition: 150ms;
 }
@@ -172,6 +161,7 @@ footer p{
     color: #cecece;
     margin: 15px 0px;
     text-align: justify;
+    width: 95%;
 }
 
 /* --------------- MEDIA --------------- */
