@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">ACCUEIL</a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">Présentation</a></li>
+                <li><a href="#">Compétences</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <a href="#" class="menu">MENU</a>
+    </nav>
+
+    <main>
+        <div class="titre">
+            <p>portfolio</p>
+            <h1>LUCAS ELANA</h1>
+            <p>1ère année - BTS Service Informatique aux Organisations</p>
+        </div>
+      </main>
+
+      <footer>
+        <div class="link">
+            &copy; 2024, by Sontacred
+        </div>
+        <a href="https://github.com/Sontacred/SIO-main-web" target="_blank">repository</a>
+        <a href="#">informations</a>
+        <a href="#">contact</a>
+    </footer>
+    
+</body>
+
+<script>
+    const menuHamburger = document.querySelector(".menu")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>
