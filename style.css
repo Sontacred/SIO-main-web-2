@@ -11,7 +11,7 @@ body{
     width: 100vw;
 }
 
-/* ----- HEADER / NAVBAR ----- */
+/* --------------- NAVBAR --------------- */
 
 .navbar{
     padding: 20px;
@@ -21,7 +21,6 @@ body{
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
-    position: fixed;
     backdrop-filter: blur(20px);
     border-bottom: 2px solid #FFFFFF;
     height: fit-content;
@@ -67,27 +66,17 @@ body{
     width: fit-content;
 }
 
-/* ----- MAIN ----- */
+/* --------------- BASE --------------- */
 
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 90vh;
     height: fit-content;
     width: 100%;
     color: #FFFFFF;
-}
-
-main h1{
-    font-size: 7.6em;
-}
-
-main p{
-    display: flex;
-    align-items: end;
-    font-size: 2em;
-    font-weight: bold;
 }
 
 .titre{
@@ -102,6 +91,7 @@ footer{
     align-items: center;
     justify-content: center;
     background: #101010;
+    color: #cecece;
     text-transform: none;
     font-weight: 900;
     width: 100%;
@@ -114,34 +104,19 @@ footer a{
     margin: 0px 10px 0px 10px;
 }
 footer a:hover{
-    color: #ffffff;
     text-decoration: underline;
 }
 footer p{
     margin: 0px 10px;
 }
-.link{
+.footer-link{
     color: #cecece;
-    margin: 0px 10px 0px 10px;
+    margin-right: 10px;
     display: flex;
     flex-direction: row;
 }
 
-h2{
-    color: #FFFFFF;
-    font-size: 3em;
-}
-
-h3{
-    font-size: 2em;
-}
-
-p{
-    color: #FFFFFF;
-}
-
-
-/* ----- LOBBY ----- */
+/* --------------- PAGE : LOBBY --------------- */
 
 .main-lobby{
     display: flex;
@@ -163,144 +138,49 @@ p{
     transition: 150ms;
 }
 
-/* ----- PORTFOLIO ----- */
+/* --------------- PAGE : PORTFOLIO --------------- */
 
-.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #101010;
-    color: #ffffff;
-    height: fit-content;
-    width: 100%;
-    border-top: 2px solid #FFFFFF;
-    padding: 100px 0px 30px 0px;
+.main-portfolio{
+    min-height: 94vh;
 }
 
-.box{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: none;
-    height: 100%;
-    width: 90%;
-    padding: 20px;
-    border-radius: 10px;
-}
-.item{
-    background: #4d4d4d;
-    height: fit-content;
-    text-transform: none;
-    font-weight: 200;
-    font-size: 0.8em;
-    width: 95%;
-    margin: 10px;
-    padding: 30px;
-    border-radius: 10px;
-}
-.item p{
-    font-size: medium;
+/* --------------- PAGE : BLOG --------------- */
+
+.main-blog{
+    padding: 80px 20px;
 }
 
-.trackbarA{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    background: #000000;
-    border: 5px solid #000000;
-    width: 90%;
-    height: 10px;
-    margin: 10px 10px 10px 10px;
-    border-radius: 100px;
-    font-weight: 900;
-}
-.trackbarB1{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    background: #FFFFFF;
-    width: 90%;
-    height: 100%;
-    margin: 10px 5px 10px 0px;
-    border-radius: 100px;
-}
-.trackbarB2{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    background: #FFFFFF;
-    width: 50%;
-    height: 100%;
-    margin: 10px 5px 10px 0px;
-    border-radius: 100px;
-}
-.trackbarB3{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    background: #FFFFFF;
-    width: 70%;
-    height: 100%;
-    margin: 10px 5px 10px 0px;
-    border-radius: 100px;
-}
-
-button{
-    background: #333333;
-    color: white;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px;
-    width: 100%;
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 100px;
-    transition: 150px;
-}
-button:hover{
-    background: #FF5757;
-    cursor: pointer;
-    transition: 150px;
-}
-
-/* ----- BLOG ----- */
-section{
-    background: none; /* ! */
-    padding: 90px 60px 20px 60px;
-}
-
-.article{
+.blog-article{
     display: flex;
     background: none; /* ! */
     margin: 30px 0px;
 }
-.article img{
+.blog-article img{
     height: 300px;
     width: 500px;
     border: 1px solid #494949;
     border-radius: 16px;
 }
-.article .right{
+.blog-article .blog-right{
     background: none;
     margin-left: 30px;
 }
-.article .right p.date{
+.blog-article .blog-right .blog-date{
     color: #7f7e7e;
     margin: 10px 0px;
 }
-.article .right p.description{
-    color: #ffffff; /* ! */
+.blog-article .blog-right .blog-description{
+    color: #cecece;
     margin: 15px 0px;
     text-align: justify;
 }
 
-/* ----- MEDIA ----- */
+/* --------------- MEDIA --------------- */
 
 @media only screen and (max-width: 900px) {
+    
+    /* ----- NAVBAR ----- */
+
     .navbar{
         position: absolute;
         padding: 0;
@@ -361,42 +241,32 @@ section{
         font-size: 1.2em;
     }
 
-    main h1{
-        font-size: 2.6em;
-    }
-    main p{
-        font-size: 0.6em;
-    }
-    footer a{
+    /* ----- BASE ----- */
+
+    footer{
         font-size: 10px;
         margin: 0px 5px;
+        border-top: 1px solid #FFFFFF;
     }
-    .link{
-        font-size: 10px;
-    }
-    .box{
-        flex-direction: column;
-    }
-    .article{
+
+    /* ----- PORTFOLIO ----- */
+
+    /* ----- BLOG ----- */
+
+    .blog-article{
         display: flex;
         flex-direction: column;
     }
-    .article .right{
+    .blog-article .blog-right{
         background: none;
         margin-left: 0px;
     }
-    .article img{
+    .blog-article img{
         height: 100%;
-        width:100%;
+        width:90%;
     }
-    .article .right p.description{
+    .blog-article .blog-right .blog-description{
         font-size: 15px;
-    }
-    nav h1{
-        font-size: 20px;
-        font-weight: 900;
-    }
-    .onglets a{
-        font-size: 16px;
+        width: 90%;
     }
 }
