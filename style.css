@@ -240,6 +240,10 @@ footer p{
         font-size: 1.2em;
     }
 
+    .navbar a:hover{
+        color: #FFFFFF;
+    }
+
     /* ----- BASE ----- */
 
     footer{
